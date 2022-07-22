@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100vh;  
+    background-color: #474b4e ; 
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    margin: 5px;
+}
+input{
+    width: 250px;
+    height: 30px;
+}
+input[type= submit]:hover{
+    cursor: pointer;
+}
+
+input:focus{
+    background-color: #ccc;
+}
+
+
+#container{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+}
+
+#AreaLogin,#AreaRegistro{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    background-color:  #3e4144;
+    border: 2px solid black;
+    border-radius: 30px;
+}
